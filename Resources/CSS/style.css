@@ -194,3 +194,47 @@ h2:after {
     color: rgba(255, 255, 255, 0.71);
     transition: color 0.2s;
 }
+
+.awesome-box:first-child {
+    text-align: right;
+}
+
+.awesome-box:last-child {
+    padding-left: 3%;
+    margin-top: 135px;
+
+
+}
+
+
+.iphone-image {
+    width: 40%;
+}
+
+.description {
+    margin-bottom: 35px;
+    font-size: 110%;
+    font-weight: 300
+
+}
+
+.description div {
+    color: #9b59b6;
+    border: 2px solid #9b59b6;
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+
+    margin-right: 25px;
+}
+
+.section-awesome {
+    background-color: #f0efef
+}
+
+
+    
