@@ -191,6 +191,6 @@ h2:after {
 
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: 3px solid #fff;
-    transition: border-bottom 0.2s;
+    color: rgba(255, 255, 255, 0.71);
+    transition: color 0.2s;
 }
