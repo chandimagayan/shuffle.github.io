@@ -13,6 +13,8 @@ html {
     
 }
 
+
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -54,10 +56,11 @@ header {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: 70%;
     top: 50%;
     left: 62%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -50%);
+
         
 }
 
@@ -66,6 +69,7 @@ header {
     color: rgba(255, 255, 255, 0.83);
     margin-bottom: 10px;
     font-weight: 300;
+    width: 50%;
 }
 
 /*----------------HEADINGS-------------------*/
@@ -81,7 +85,8 @@ h1 {
     color: #fff;
     font-size: 350%;
     margin-bottom: 12px;
-    font-weight: 300
+    font-weight: 300;
+    width: 100%;
     
 }
 
@@ -119,7 +124,7 @@ h2:after {
     margin-bottom: 30px;
     text-align: justify;
     text-align-last: center;
-    font-weight: 300
+    font-weight: 300;
 }
 
 .icon-big {
