@@ -57,6 +57,12 @@ header {
         
 }
 
+.sub-head{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.83);
+    margin-bottom: 10px;
+}
+
 /*----------------HEADINGS-------------------*/
 
 h1, h2 {
@@ -68,7 +74,7 @@ h1, h2 {
 h1 {
     margin: 0;
     color: #fff;
-    font-size: 320%;
+    font-size: 350%;
     margin-bottom: 12px;
     
 }
