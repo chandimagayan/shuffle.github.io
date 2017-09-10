@@ -27,8 +27,15 @@ section {
 
 .box {
     padding: 1%;
+    
    /* text-align: justify;
     text-align-last: center; */
+
+}
+
+.box img{
+    width: 100%;
+    height: auto;
 
 }
 
@@ -219,7 +226,7 @@ h2:after {
 .description {
     margin-bottom: 35px;
     font-size: 110%;
-    font-weight: 300
+    font-weight: 300;
 
 }
 
@@ -239,8 +246,42 @@ h2:after {
 }
 
 .section-awesome {
-    background-color: #dddddd;
+    background-color: #efefef;
 }
+
+/* Playlists section */
+
+.section-playlists {
+    width: 100%;
+    
+}
+
+/* Download section */
+
+.section-download img {
+    width: 50%;
+    height: auto;
+}
+
+.download-box:first-child {
+    text-align: center;
+
+}
+
+.download-box:last-child {
+    font-size: 115%;
+    margin-top: 200px;
+    padding-left: 50px;
+
+}
+
+.btn-big {
+  display: inline-block;
+  float: left;
+  border: 0;    
+}
+
+
 
 
     
