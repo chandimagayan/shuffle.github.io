@@ -259,12 +259,12 @@ h2:after {
 /* Download section */
 
 .section-download img {
-    width: 50%;
+    width: 45%;
     height: auto;
 }
 
 .download-box:first-child {
-    text-align: center;
+    text-align: right;
 
 }
 
@@ -291,6 +291,45 @@ h2:after {
     margin-bottom: 20px;
 }
 
+/*---------Testimonial------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Img/testimonials-banner.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    position: relative;
+    line-height: 145%;
+    margin-top: 40px;
+    font-weight: 300;
+    
+    
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
 
 
