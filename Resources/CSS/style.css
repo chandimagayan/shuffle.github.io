@@ -275,11 +275,23 @@ h2:after {
 
 }
 
-.btn-big {
-  display: inline-block;
-  float: left;
-  border: 0;    
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+    
 }
+
+.btn-app img{
+  height: 50px;
+    width: auto;
+}
+
+.download-box p {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
 
 
 
